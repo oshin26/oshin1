@@ -1,7 +1,9 @@
 #include<stdio.h>
+int print_sts(int num)
+{
+	return num;
+}
 void main()
 {
-	printf("Hello.");
-	return 0;
+	printf("Hello. %d",print_sts(5));
 }
-
