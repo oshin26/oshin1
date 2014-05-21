@@ -5,5 +5,5 @@ int print_sts(int num)
 }
 void main()
 {
-	printf("Hello. %d",print_sts(5));
+	printf("Hello. %d\n",print_sts(555));
 }
